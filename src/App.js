@@ -12,13 +12,7 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 if (!firebase.apps.length) {
   firebase.initializeApp({
-    apiKey: "AIzaSyB7zqxfeQlrVZwTrqK6bP7Y6wNV5iZRBqc",
-    authDomain: "fireside-c3447.firebaseapp.com",
-    projectId: "fireside-c3447",
-    storageBucket: "fireside-c3447.appspot.com",
-    messagingSenderId: "19220474562",
-    appId: "1:19220474562:web:03935ef320dbb6a2bf695b",
-    measurementId: "G-ZL0WM6NJBS"
+
   });
 }else {
   firebase.app();
